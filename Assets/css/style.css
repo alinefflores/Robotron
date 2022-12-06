@@ -23,7 +23,7 @@ body, input {
 }
 
 main {
-    margin: 10vh 8vw 10vh 12vw;
+    margin: 10vh 8vw 10vh 8vw;
     display: flex;    
 }
 

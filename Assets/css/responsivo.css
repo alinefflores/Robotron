@@ -37,8 +37,8 @@
         flex-direction: row;  
         gap: 1vw; 
         height: 80vh;
-        margin: 5vh auto; 
-        width: 80vw; 
+        margin: 3vh auto; 
+        width: 80vh; 
     }
 
     
@@ -47,17 +47,18 @@
     }
 
     .robotron {
-        background-position: center center;
-        flex-basis: 80%;
+        background-position: center;
+        flex-basis: 40%;
         margin: 0;
-        max-width: 500px;         
+        max-width: 400px;         
         position: relative;
                       
     }
     
     .robo {
-        left: -60%;
-        max-width: 600px;      
+        height: 60%;
+        left: -20%;
+        max-width: 500px;      
         position: absolute;
         top: -5%;
         z-index: 1;
