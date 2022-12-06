@@ -3,12 +3,12 @@
         font-size: 12px;
     }  
 
-    main {
-        width: 60vw;
-        height: 60vh; 
+    main {               
         flex-direction: column; 
         flex-wrap: nowrap;
-        gap: 1vw;      
+        height: 60vh;
+        gap: 1vw;
+        width: 60vw;      
     }
 
    
@@ -19,8 +19,7 @@
     .robotron {
         background-position: center;
         margin: 0;
-        max-width: 300px 
-               
+        max-width: 300px                
     }
     
     .robo {
@@ -50,7 +49,8 @@
     .robotron {
         background-position: center center;
         flex-basis: 80%;
-        margin: 0;        
+        margin: 0;
+        max-width: 500px;         
         position: relative;
                       
     }
