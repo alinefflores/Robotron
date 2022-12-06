@@ -1,0 +1,64 @@
+@media screen and (min-width: 0) {
+    body { 
+        font-size: 12px;
+    }  
+
+    main {
+        width: 60vw;
+        height: 60vh; 
+        flex-direction: column;       
+    }
+
+    .robo{
+        height: 60%;
+    }
+
+    .titulo{
+        font-size: 60px;
+    }
+}
+
+       
+@media screen and (min-width: 768px) {
+    body { 
+        font-size: 12px;
+    }   
+
+    main {
+        width: 60vw;
+        height: 60vh;
+        margin: 5vh auto; 
+        flex-direction: row;       
+    }
+
+    .robo{
+        height: 60%;
+    }
+
+    .titulo{
+        font-size: 100px;
+    }
+}
+
+
+@media screen and (min-width: 992px) {
+    body { 
+        font-size: 14px;
+    }   
+
+    main {
+        width: 80vw;
+        height: 80vh;
+        margin: 10vh auto;
+        flex-direction: row;        
+    }
+
+    .robo{
+        height: 110%;
+    }
+
+    .titulo{
+        font-size: 130px;
+    }
+
+}
