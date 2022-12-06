@@ -24,22 +24,12 @@ body, input {
 main {
     margin: 10vh 8vw 10vh 12vw;
     display: flex;
-    gap: 2vw;
+    
 }
 
 .robotron {
-    background: url('../img/estrutura.png') no-repeat;
-    background-position: center center;
-    margin: 0;
-    flex-basis: 40%;  
-    position: relative;
-}
-
-.robo {
-    z-index: 1;
-    position: absolute;
-    left: -20%;
-    top: -5%;
+    background: url('../img/estrutura.png') no-repeat; 
+    
 }
 
 .titulo {

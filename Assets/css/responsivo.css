@@ -6,16 +6,26 @@
     main {
         width: 60vw;
         height: 60vh; 
-        flex-direction: column;       
+        flex-direction: column; 
+        flex-wrap: nowrap;
+        gap: 1vw;      
     }
 
-    .robo{
-        height: 60%;
-    }
-
+   
     .titulo{
-        font-size: 60px;
+        font-size: 20px;
     }
+
+    .robotron {
+        background-position: center;
+        margin: 0;
+        max-width: 300px 
+               
+    }
+    
+    .robo {
+        max-width: 300px   
+   }
 }
 
        
@@ -25,40 +35,71 @@
     }   
 
     main {
-        width: 60vw;
-        height: 60vh;
+        flex-direction: row;  
+        gap: 1vw; 
+        height: 80vh;
         margin: 5vh auto; 
-        flex-direction: row;       
+        width: 80vw; 
     }
 
-    .robo{
-        height: 60%;
-    }
-
+    
     .titulo{
-        font-size: 100px;
+        font-size: 80px;
+    }
+
+    .robotron {
+        background-position: center center;
+        flex-basis: 80%;
+        margin: 0;        
+        position: relative;
+                      
+    }
+    
+    .robo {
+        left: -60%;
+        max-width: 600px;      
+        position: absolute;
+        top: -5%;
+        z-index: 1;
     }
 }
 
 
 @media screen and (min-width: 992px) {
     body { 
-        font-size: 14px;
+        font-size: 16px;
     }   
 
     main {
-        width: 80vw;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        gap: 2vw;  
         height: 80vh;
         margin: 10vh auto;
-        flex-direction: row;        
+       
+        width: 80vw;      
     }
 
-    .robo{
-        height: 110%;
-    }
-
+   
     .titulo{
         font-size: 130px;
     }
+    
+    .robotron {
+        background-position: center center;
+        flex-basis: 40%; 
+        margin: 0;
+        max-width: 400px;  
+        position: relative;                     
+    }
+    
+    .robo {
+        height: 110%;
+        left: -30%;
+        max-width: 700px; 
+        position: absolute;
+        top: -5%;
+        z-index: 1;
+    }   
 
 }
